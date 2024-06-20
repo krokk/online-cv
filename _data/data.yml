@@ -4,7 +4,7 @@
 
 sidebar:
     position: right # position of the sidebar : left or right
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
@@ -17,10 +17,9 @@ sidebar:
     phone: 07 82 01 78 91
     timezone: Europe/London Timezone
     citizenship:
-    website: remifabre.fr #do not add http://
+  #  website: remifabre.fr #do not add http://
     linkedin: rémi-fabre
     xing: #
-    github: sharu725
     telegram: # add your nickname without '@' sign
     gitlab: #
     bitbucket: # 
@@ -36,230 +35,150 @@ sidebar:
         - idiom: Français
           level: Natif
 
-        - idiom: French
-          level: Professional
+        - idiom: Anglais
+          level: Courant
 
-        - idiom: Spanish
-          level: Professional
+        - idiom: Coréen
+          level: Courant
+
 
     interests:
       title: Interests
       info:
-        - item: Climbing
+        - item: Surf
           link:
 
-        - item: Snowboarding
+        - item: Cyclisme
           link:
 
-        - item: Cooking
+        - item: 
           link:
 
 career-profile:
-    title: Career Profile
+    title: À propos
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+     Après un cursus à l'École 42 en programmation logicielle, mes expériences m'ont permis de développer une affinité pour le cloud et le devops.
+     Empathique et capable de vulgariser, je veux mettre ma polyvalence et mon esprit d'équipe au service d'un projet.
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
+      - degree: Architecte technologie du numérique
+        university: École 42
+        time: 2016 - 2019
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          Cursus en autodidacte, j'ai pu me former à la programmation en C, PHP, Javascript sous forme de projets.
+          Participation aux événements interne et externe: hackaton, porteur de projets, retour d'expérience d'entreprise.        
+
+      - degree:  Bachelor Administration et sécurisation des réseaux
+        university: Itic Paris
+        time: 2013 - 2015
+        details: | 
+          Cursus où j'ai découvert l'administration des systèmes linux, le routage et communication réseaux, virtualisation des serveurs.
+
 
 experiences:
-    title: Experiences
+    title: Expériences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: Consultant devOps
+        time: 2021 - 2023
+        company: Aneo, Paris
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
+          Renault - Création d'une infrastructure HPC dans le cloud Google.
+            En collaboration avec des architectes google, déploiement d'un cluster HPC avec SLURM en orchestrateur.
+            J'ai pu mettre place les différents environnements, les pipelines CI/CD permettant le déploiement des infrastructures.
+            Accompagnement de l'équipe à se familiariser à un environnement devOps.
+            
+          -----
+          Société Générale - Migration Ansible bare-metal vers Kubernetes.
+            Dans l'equipe AppsAutomation responable de fournir un Ansible managé aux service des banques à distance.
+            Migration de la solution AWX vers la plateforme Kubernetes, améliorant significativement les performances/stabilité du système.
+            Développement d'un outil d'import en python afin d'intégrer les données sur le nouvel AWX, implémentation d'un portail permettant la cohabitation des instances.
+            Animation des réunions agile. Coaching/formation aux équipes internes SG, renforçant leur confiance dans l'utilisation des nouveaux outils.   
+         
+          -----
+          Interne - Sensibilisation des équipes sur les bonnes pratiques.
+           Audit et mise en place d'outils d'analyse de code sur plusieurs projets internes. 
+           Animation de sessions Knowledge et event Craftmanship
+           
+
+      - role: Ingenieur devOps
+        time: 2019 - 2021
+        company: Wiztopic, Paris
+        details: |
+          Création complète de l'infrastructure cloud de Wiztopic. depuis la conception à la réalisation.
+          Adaptation des briques du Saas pour être conteneurisée (images, système de logging, BDD, CDN), veille sur les technologies pouvant être implementer.
+          Maintien opérationnel des infrastructures (bare-metal, cloud)
+
+
+      - role: Developpeur Web
+        time: 2018 - 2019
+        company: Ifeelsmart, Paris
+        details: |
+          Développement en PHP et Javascript sur un outil d'éditorialisation de contenu pour les STB ( box internet) des opérateurs.
+          Adaptation du modèle de données suite à un changement d'API
+          Travail sur l'UI et refonte de la programmation de 9 à 4 étapes.
+
+      - role: Cofondateur
+        time: 2016 - Auj
+        company: Bali Bowls, Biarritz
+        details: |
+          Ideation du projet, lancements des boutiques, formation des employés, création et accompagnement des franchises.
+      
+
+      - role: Administrateur système et réseaux
         time: 2014 - 2015
-        company: Google, London
+        company: Nerim, Paris
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          Data crunching vers le CRM (Vtiger)
+          Configuration de routeur 
+          Installation de serveurs en datacenter
 
 certifications:
       title: Certifications
       list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
+        - name: Google professionnal cloud architect
+          start: 2022
+          end: 
+          organization: Google, France
+          credentialid: 
+          credentialurl: www.credly.com/badges/6e37e6b9-be05-4537-919a-ea77b663b02a/public_url
+          credentialname: certificat ID
           details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
-
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-            fringilla vel. Ut euismod, sem sed vulputate venenatis,
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at.
-        - name: Git learning
-          start: 2019
-          end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
-          details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+            Networking, GKE, Compute Engine,Cloud Functions, Cloud Storage, Cloud NAT, BigQuery ...
+            
+          
 
 projects:
-    title: Projects
-    intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    title: Side Projects
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: Apptimiz 
+        link: "https://aptimiz.com/"
+        tagline: |
+          Solution à destination des agriculteurs pour mesurer et optimiser leurs temps de travail.
+          En tant que porteur de projet nous avons présenté & remporté 2 concours de startup. ( Le champs des possibles & Morpheus cup)
+          
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+# skills:
+#     title: Skills &amp; Proficiency
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+#     toolset:
+#       - name: Python & Django
+#         level: 98%
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+#       - name: Javascript & jQuery
+#         level: 98%
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+#       - name: Angular
+#         level: 98%
 
-oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+#       - name: HTML5 & CSS
+#         level: 95%
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+#       - name: Ruby on Rails
+#         level: 85%
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
-
-skills:
-    title: Skills &amp; Proficiency
-
-    toolset:
-      - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
+#       - name: Sketch & Photoshop
+#         level: 60%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
